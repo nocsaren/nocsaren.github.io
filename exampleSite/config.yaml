@@ -134,7 +134,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://nocsaren.github.com
+          url: https://github.com/nocsaren
         - icon: fab fa-twitter
           url: https://example.com
 
@@ -217,14 +217,6 @@ params:
           enable: true
           name: "My academic record"
           url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
 
   # Achievements
   achievements:
@@ -253,15 +245,15 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
+      - title: Some Calculations and Visualizations on Collatz Conjecture
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
         image: /images/projects/profile.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://nocsaren.shinyapps.io/collatz-conjecture/
         badges:
-          - "Hugo"
-          - "Bootstrap"
+          - "R"
+          - "Shiny"
           - "Javascript"
         links:
           - icon: fa fa-envelope
@@ -296,14 +288,14 @@ params:
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/nocsaren
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: can_serdar@msn.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
