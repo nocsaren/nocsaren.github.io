@@ -179,7 +179,7 @@ params:
     # title: "Custom Name"
     index: false
     items:
-       - title: "Doctor of Philosopy"
+      - title: "Doctor of Philosopy"
         school:
           name: "Ankara University"
           url: "https://www.ankara.edu.tr"
