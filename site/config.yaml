@@ -164,7 +164,7 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Experience"
     items:
       - job: "123 Researcher"
         company: "Ankara University"
