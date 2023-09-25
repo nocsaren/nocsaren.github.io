@@ -22,18 +22,7 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -130,7 +119,7 @@ params:
       name: "Resume"
       url: images/serdar_burak_can.pdf
       download: true
-      newPage: true
+      newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
