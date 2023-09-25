@@ -117,7 +117,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: images/serdar_burak_can.pdf
+      url: "/images/serdar_burak_can.pdf""
       download: true
       newPage: false
     socialLinks:
@@ -234,7 +234,7 @@ params:
     items:
       - title: Collatz Conjecture
         content: Some Calculations and Visualizations on Collatz Conjecture 2:5000
-        image: /images/projects/profile.png
+        image: /images/projects/collatz.png
         featured:
           name: Go
           link: https://nocsaren.shinyapps.io/collatz-conjecture/
