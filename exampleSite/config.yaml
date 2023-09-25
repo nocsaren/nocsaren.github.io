@@ -113,7 +113,7 @@ params:
     image: /images/hero.jpg
     bottomImage:
       enable: true
-      roundImage: false # Make hero image circular | default false
+      roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
@@ -247,7 +247,7 @@ params:
 
       - title: News Battles
         content: A small web app to compare news coverages of words.
-        image: /images/projects/converter.jpg
+        image: /images/projects/news.png
         featured:
           name: Demo
           link: https://nocsaren.shinyapps.io/news-battles/
