@@ -126,6 +126,8 @@ params:
           url: https://github.com/nocsaren
         - icon: fab fa-twitter
           url: https://twitter.com/B_Can_Serdar
+        - icon: fab fa-envelpe
+          url: mailto:c.serdar@gmail.com
 
   # About
   about:
@@ -158,7 +160,6 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "lorem ipsum"
 
   # Education
   education:
@@ -245,7 +246,7 @@ params:
         image: /images/projects/news.png
         featured:
           name: TBA
-          link: https://hugo-profile-2.netlify.app
+          link: https://nocsaren.netlify.app
         badges:
           - "Hugo"
           - "Bootstrap"
@@ -259,7 +260,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: can_serdar@msn.com
+    email: c.serdar@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -275,11 +276,9 @@ params:
       enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/nocsaren/
+      linkedin: https://www.linkedin.com/in/burak-can-serdar/
+      twitter: https://twitter.com/B_Can_Serdar
 
   # List pages like blogs and posts
   listPages:
