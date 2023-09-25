@@ -126,7 +126,7 @@ params:
           url: https://github.com/nocsaren
         - icon: fab fa-twitter
           url: https://twitter.com/B_Can_Serdar
-        - icon: fab fa-envelope
+        - icon: fa fa-envelope-open
           url: mailto:c.serdar@gmail.com
 
   # About
