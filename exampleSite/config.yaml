@@ -137,7 +137,7 @@ params:
     content: |-
       I am a data scientist with a research background. I construct mathematical models based on your data to provide insights about solving existing problems and predicting tendencies to make your overall decision-making better informed.
     skills:
-      enable: false
+      enable: true
       title: "Here are a few tasks that I have experience in:"
       items:
         - "Statistical data analysis in R (Hypothesis Testing, A/B Testing, Regression Analysis, Time Series Analysis...)"
