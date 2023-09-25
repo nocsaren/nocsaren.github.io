@@ -108,16 +108,16 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Can"
-    subtitle: "I extract meaning from data"
-    content: "lorem ipsum"
+    subtitle: "I create and unravel mysteries within your data."
+    content: "Data scientist with research background. I like testing new methods, out-of-the-box strategies, and creative thinking."
     image: /images/hero.jpg
     bottomImage:
       enable: true
-      roundImage: true # Make hero image circular | default false
+      #roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: /images/serdar_burak_can.pdf
+      url: "serdar_burak_can.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -133,9 +133,9 @@ params:
     title: "About Me"
     image: "/images/hero3.jpg"
     content: |-
-      I am a data scientist
+      I am a data scientist with a research background. I construct mathematical models based on your data to provide insights about solving existing problems and predicting tendencies to make your overall decision-making better informed.
     skills:
-      enable: true
+      enable: false
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "lorem ipsum"
