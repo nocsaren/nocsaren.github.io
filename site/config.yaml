@@ -15,25 +15,14 @@ outputs:
 Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
+googleAnalytics: G-MSGRVGZ52P
 
 markup:
   goldmark:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    #- identifier: blog
-    #  name: Blog
-    #  title: Blog posts
-    #  url: /blogs
-    #  weight: 1
-    #- identifier: gallery
-    #  name: Gallery
-    #  title: Blog posts
-    #  url: /gallery
-    #  weight: 2
+
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -54,9 +43,9 @@ Menus:
 
 params:
   title: "About & Portfolio"
-  description: Text about my cool site
-  staticPath: "/static/"  # The path to serve the static files from
-  favicon: "/fav.png"
+  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  staticPath: "/exampleSite/static/"  # The path to serve the static files from
+  favicon: "/images/android-chrome-512x512.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -118,9 +107,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Can."
-    subtitle: "I use data to make informed decisions"
-    content: "A passionate 123 web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Can"
+    subtitle: "I extract meaning from data"
+    content: "lorem ipsum"
     image: /images/hero.jpg
     bottomImage:
       enable: true
@@ -128,7 +117,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: /images/serdar_burak_can.pdf
       download: true
       newPage: false
     socialLinks:
@@ -136,37 +125,32 @@ params:
         - icon: fab fa-github
           url: https://github.com/nocsaren
         - icon: fab fa-twitter
-          url: https://example.com
-      #customIcons:
-        #- icon: /fav.png
-        #  url: "https://example.com"
+          url: https://twitter.com/B_Can_Serdar
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/hero.jpg"
     content: |-
-      123 I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am a data scientist
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "123 HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "lorem ipsum"
+        - "lorem ipsum"
+        - "lorem ipsum"
+        - "lorem ipsum"
+        - "lorem ipsum"
+        - "lorem ipsum"
 
   # Experience
   experience:
     enable: true
-    title: "Experience"
+    # title: "Custom Name"
     items:
-      - job: "123 Researcher"
+      - job: "Researcher"
         company: "Ankara University"
         companyUrl: "https://www.ankara.edu.tr"
         date: "Sep 2014 - present"
@@ -174,48 +158,51 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "lorem ipsum"
+
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "123 Master of Business Administration"
+      - title: "Doctor of Philosopy"
         school:
-          name: "123 University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Ankara University"
+          url: "https://www.ankara.edu.tr"
+        date: "2017 - present"
+        GPA: "4.0 out of 4.0"
         content: |-
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+      - title: "Master of Philosopy"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "Ankara University"
+          url: "https://www.ankara.edu.tr"
+        date: "2014 - 2017"
+        GPA: "3.8 out of 4.0"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Philosophy"
+        school:
+          name: "Hacettepe University"
+          url: "https://www.hacettepe.edu.tr"
+        date: "2008 - 2013"
+        GPA: "3.9 out of 4.0"
         content: |-
           I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
           url: "https://example.com"
 
   # Achievements
@@ -245,42 +232,38 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Collatz Conjecture
+        content: Some Calculations and Visualizations on Collatz Conjecture 2:5000
+        image: /images/projects/collatz.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Go
+          link: https://nocsaren.shinyapps.io/collatz-conjecture/
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "R"
+          - "Shiny"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/nocsaren/collatz-conjecture
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: News Battles
+        content: A small web app to compare news coverages of words.
         image: /images/projects/converter.jpg
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://nocsaren.shinyapps.io/news-battles/
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "R"
+          - "Shiny"
+          - "API"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/nocsaren/news-battles
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: TBA
+        content: TBA.
         image: /images/projects/profile2.jpg
         featured:
-          name: Demo V2
+          name: TBA
           link: https://hugo-profile-2.netlify.app
         badges:
           - "Hugo"
@@ -288,7 +271,7 @@ params:
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/nocsaren
 
   #Contact
   contact:
@@ -308,7 +291,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com

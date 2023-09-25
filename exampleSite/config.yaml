@@ -44,7 +44,7 @@ markup:
 params:
   title: "About & Portfolio"
   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-  staticPath: "/exampleSite/static/"  # The path to serve the static files from
+  #staticPath: "/exampleSite/static/"  # The path to serve the static files from
   favicon: "/images/android-chrome-512x512.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
