@@ -171,35 +171,16 @@ params:
           name: "Ankara University"
           url: "https://www.ankara.edu.tr"
         date: "2017 - present"
-        GPA: "4.0 out of 4.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
       - title: "Master of Philosopy"
         school:
           name: "Ankara University"
           url: "https://www.ankara.edu.tr"
         date: "2014 - 2017"
-        GPA: "3.8 out of 4.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
       - title: "Bachelor of Philosophy"
         school:
           name: "Hacettepe University"
           url: "https://www.hacettepe.edu.tr"
         date: "2008 - 2013"
-        GPA: "3.9 out of 4.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
           enable: false
           name: "My academic record"
