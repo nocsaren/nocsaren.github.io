@@ -136,7 +136,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/nocsaren
         - icon: fab fa-twitter
-          url: https://example.com
+          url: https://twitter.com/B_Can_Serdar
 
   # About
   about:
@@ -144,9 +144,7 @@ params:
     title: "About Me"
     image: "/images/hero.jpg"
     content: |-
-      I am a  124 software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am a data scientist
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -259,23 +257,24 @@ params:
             url: https://github.com/nocsaren/collatz-conjecture
 
       - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        content: A small web app to compare news coverages of words.
         image: /images/projects/converter.jpg
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://nocsaren.shinyapps.io/news-battles/
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "R"
+          - "Shiny"
+          - "API"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/nocsaren/news-battles
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: TBA
+        content: TBA.
         image: /images/projects/profile2.jpg
         featured:
-          name: Demo V2
+          name: TBA
           link: https://hugo-profile-2.netlify.app
         badges:
           - "Hugo"
