@@ -117,7 +117,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/images/serdar_burak_can.pdf""
+      url: "/images/serdar_burak_can.pdf"
       download: true
       newPage: false
     socialLinks:
