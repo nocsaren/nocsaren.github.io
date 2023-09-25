@@ -110,7 +110,7 @@ params:
     title: "Can"
     subtitle: "I extract meaning from data"
     content: "lorem ipsum"
-    image: /images/hero.jpg
+    image: /images/hero2.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -131,7 +131,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/hero.jpg"
+    image: "/images/hero3.jpg"
     content: |-
       I am a data scientist
     skills:
@@ -261,7 +261,7 @@ params:
 
       - title: TBA
         content: TBA.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/news.png
         featured:
           name: TBA
           link: https://hugo-profile-2.netlify.app
