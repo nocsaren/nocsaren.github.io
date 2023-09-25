@@ -110,10 +110,10 @@ params:
     title: "Can"
     subtitle: "I extract meaning from data"
     content: "lorem ipsum"
-    image: /images/hero2.png
+    image: /images/hero.jpg
     bottomImage:
       enable: true
-      roundImage: true # Make hero image circular | default false
+      roundImage: false # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
