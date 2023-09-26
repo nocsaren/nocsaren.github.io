@@ -43,7 +43,7 @@ markup:
 
 params:
   title: "About & Portfolio"
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  description: About Me
   #staticPath: "/exampleSite/static/"  # The path to serve the static files from
   favicon: "/images/android-chrome-512x512.png"
 
