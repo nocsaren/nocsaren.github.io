@@ -235,7 +235,7 @@ params:
         badges:
           - "R"
           - "RMarkdown"
-          - "Api"
+          - "API"
           - "Regression Analysis"
         links:
           - icon: fab fa-github
