@@ -217,7 +217,7 @@ params:
         content: Some Calculations and Visualizations on Collatz Conjecture 2:5000
         image: /images/projects/collatz.png
         featured:
-          name: Go
+          name: See
           link: https://nocsaren.shinyapps.io/collatz-conjecture/
         badges:
           - "R"
@@ -225,6 +225,21 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/nocsaren/collatz-conjecture
+            
+      - title: "Example: Linear Model with Worldbank Data""
+        content: A practical example of conducting a regression analysis in R, exploring the relationship between PISA Reading Scores and Education Expenditure using real-world data from the Worldbank API, along with step-by-step explanations of data retrieval, preparation, analysis, and visualization.
+        image: /images/projects/news.png
+        featured:
+          name: See
+          link: https://worldbank-education-example.netlify.app/
+        badges:
+          - "R"
+          - "RMarkdown"
+          - "Api"
+          - "Regression Analysis"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/nocsaren/worldbank_education
 
       - title: News Battles
         content: A small web app to compare news coverages of words.
@@ -240,19 +255,6 @@ params:
           - icon: fab fa-github
             url: https://github.com/nocsaren/news-battles
 
-      - title: TBA
-        content: TBA.
-        image: /images/projects/news.png
-        featured:
-          name: TBA
-          link: https://nocsaren.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/nocsaren
 
   #Contact
   contact:
