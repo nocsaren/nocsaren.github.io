@@ -226,6 +226,17 @@ params:
           - icon: fab fa-github
             url: https://github.com/nocsaren/collatz-conjecture
             
+      - title: "Student Data Cleanup and Progress Analysis"
+        content: "IN PROGRESS: Some modelling on student progresses and Follow-up"
+        image: /images/projects/stud.png
+        badges:
+          - "R"
+          - "Time Series"
+          - "Regression Analysis"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/nocsaren/student-progress
+            
       - title: "Example: Linear Model with World Bank Data"
         content: A practical example of conducting a regression analysis in R, exploring the relationship between PISA Reading Scores and Education Expenditure using real-world data from the Worldbank API, along with step-by-step explanations of data retrieval, preparation, analysis, and visualization.
         image: /images/projects/educ.png
@@ -240,21 +251,17 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/nocsaren/worldbank_education
-
-      - title: News Battles
-        content: A small web app to compare news coverages of words.
-        image: /images/projects/news.png
-        featured:
-          name: Demo
-          link: https://nocsaren.shinyapps.io/news-battles/
+            
+      - title: "Basma Eserler"
+        content: "IN PROGRESS: Cleanup Script and Publication of the Catalog of Books Printed with Old Script."
+        image: /images/projects/eser.png
         badges:
           - "R"
-          - "Shiny"
-          - "API"
+          - "RMarkdown"
+          - "Data Cleanup"
         links:
           - icon: fab fa-github
-            url: https://github.com/nocsaren/news-battles
-
+            url: https://github.com/nocsaren/basma-eserler
 
   #Contact
   contact:
